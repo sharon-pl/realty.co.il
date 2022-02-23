@@ -1,0 +1,100 @@
+/**********************************************************
+// Body
+**********************************************************/
+body { color: #555555; }
+
+a       { color: #888888; }
+a:hover { color: #D4623E; }
+
+p strong { color: #444444; }
+p .fa    { color: #D4623E; }
+
+::-webkit-input-placeholder { color: #999999; }
+:-moz-placeholder           { color: #999999; }
+::-moz-placeholder          { color: #999999; }
+:-ms-input-placeholder      { color: #999999; }
+
+#Box {
+	background-color: #404E57;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	}
+
+/**********************************************************
+// Header
+**********************************************************/
+#Header { background: #D4623E url(../Images/Theme-Orange/BG-Header.png) top center repeat-x; }
+
+#Header-Title      { color: #FFFFFF; }
+#Header-Details h1 { color: #FFFFFF; }
+#Header-Details h2 { color: #FFB198; }
+	
+/**********************************************************
+// Tabs
+**********************************************************/
+#Tabs { background: #7F2A10 url(../Images/Theme-Orange/BG-Tabs.png) repeat-x; }
+
+#Tabs li { color: #DF8165; }
+#Tabs li:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #FFFFFF;
+	}
+	
+#Tabs li.Active {
+	background: #FFFFFF url(../Images/Theme-Orange/BG-Tab.png) top repeat-x;
+	color: #D4623E;
+	}
+	
+/**********************************************************
+// Section: Classes
+**********************************************************/	
+.Section { background-color: #FFFFFF; }
+.Section-Title { color: #404E57; }
+	
+/**********************************************************
+// Social Links
+**********************************************************/
+#Social-Links { background: #EEEEEE url(../Images/Theme-Orange/BG-Social-Links.png) repeat-x; }
+	
+/**********************************************************
+// Section: Contact Form
+**********************************************************/	
+#Form-Status.Error   { background-color: #A64444; }
+#Form-Status.Success { background-color: #65A644; }
+#Form-Status { color: #FFFFFF; }
+	
+#Form input[type="text"],
+#Form textarea {
+	background: #EEEEEE;
+	}
+
+#Form-Submit:hover { background-color: #65A644; }
+#Form-Submit {
+	background-color: #5E9941;
+	-webkit-box-shadow: 0 3px 0 #497931;
+	   -moz-box-shadow: 0 3px 0 #497931;
+			box-shadow: 0 3px 0 #497931;
+	color: #FFFFFF;
+	}
+	
+#Form-Sending {
+	background-color: #DDDDDD;
+	-webkit-box-shadow: inset 0 0 3px #BBBBBB;
+	   -moz-box-shadow: inset 0 0 3px #BBBBBB;
+			box-shadow: inset 0 0 3px #BBBBBB;
+	color: #999999;
+	}
+	
+/**********************************************************
+// Section: Domain Stats
+**********************************************************/
+.Stats-Section h2 {	color: #E6A370; }
+.Stats-Section h3 {	color: #BE6019; }
+	
+/**********************************************************
+// Section: Additional Domain
+**********************************************************/
+#Domains-List li:nth-child(odd) { background-color: #EAF1F5; }
+#Domains-List span { color: #666666; }
+#Domains-List a    { color: #27638C; }

@@ -1,0 +1,63 @@
+/**********************************************************
+// Background: Blue
+**********************************************************/
+body.Blue { background: #193F64 url(../Images/Backgrounds/BG-Texture-Blue.png); }
+
+body.Blue #Footer     { color: #8FB7D2; }
+body.Blue #Footer .fa { color: #D5EEFF; }
+
+/**********************************************************
+// Background: Gray
+**********************************************************/
+body.Gray { background: #555555 url(../Images/Backgrounds/BG-Texture-Gray.png); }
+
+body.Gray #Footer     { color: #AAAAAA; }
+body.Gray #Footer .fa { color: #DDDDDD; }
+
+/**********************************************************
+// Background: Green
+**********************************************************/
+body.Green { background: #2D4415 url(../Images/Backgrounds/BG-Texture-Green.png); }
+
+body.Green #Footer     { color: #768D5D; }
+body.Green #Footer .fa { color: #ACC196; }
+
+/**********************************************************
+// Background: Orange
+**********************************************************/
+body.Orange { background: #5C3101 url(../Images/Backgrounds/BG-Texture-Orange.png); }
+
+body.Orange #Footer     { color: #BF9F6D; }
+body.Orange #Footer .fa { color: #E1C096; }
+
+/**********************************************************
+// Background: Purple
+**********************************************************/
+body.Purple { background: #591D6F url(../Images/Backgrounds/BG-Texture-Purple.png); }
+
+body.Purple #Footer     { color: #C789D8; }
+body.Purple #Footer .fa { color: #E8B8F2; }
+
+/**********************************************************
+// Background: Red
+**********************************************************/
+body.Red { background: #5A2B2B url(../Images/Backgrounds/BG-Texture-Red.png); }
+
+body.Red #Footer     { color: #C19696; }
+body.Red #Footer .fa { color: #E3C4C4; }
+
+/**********************************************************
+// Background: Tan
+**********************************************************/
+body.Tan { background: #5E5443 url(../Images/Backgrounds/BG-Texture-Tan.png); }
+
+body.Tan #Footer     { color: #ACA08C; }
+body.Tan #Footer .fa { color: #D9CCB6; }
+
+/**********************************************************
+// Background: Teal
+**********************************************************/
+body.Teal { background: #014E5E url(../Images/Backgrounds/BG-Texture-Teal.png); }
+
+body.Teal #Footer     { color: #7CC2C5; }
+body.Teal #Footer .fa { color: #B6D6D9; }
